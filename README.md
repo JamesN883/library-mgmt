@@ -10,7 +10,7 @@ A web-based **Library Management System** that helps librarians manage books, au
 ## 📚 Table of Contents
 1. [Introduction](#introduction)
 2. [Team Members](#team-members)
-3. [How to Run](#how-to-run)
+3. [Installation and Setup](#installation-and-setup)
 4. [Features](#features)
 5. [Challenges](#challenges)
 
@@ -31,7 +31,7 @@ The system is built using Java Spring Boot for the backend and React for the fro
 | 7     | **Nguyen Minh Viet**       | ITDSIU21130  |
 | 8     | Tran Quoc Bao              | ITITWE20033  |
 
-## 🚀 How to Run <a name="how-to-run"></a>
+## 🚀 Installation and Setup <a name="installation-and-setup"></a>
 
 1. Clone the repo
    ```sh
