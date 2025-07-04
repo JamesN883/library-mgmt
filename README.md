@@ -2,74 +2,67 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+
 # LibMan
 
-<!-- TABLE OF CONTENTS -->
-1. [Introduction](#Introduction)
-2. [Features](#Features)
-3. [Challenges](#Challenges)
+A web-based **Library Management System** that helps librarians manage books, authors, members, and loan transactions with ease. Built with **Java Spring Boot** (backend) and **React** (frontend), LibMan supports CRUD operations, real-time updates, and intuitive navigation.
 
-<!-- <details>
-<summary>Table of Contents</summary>
-<ol>
-    <li>
-        <a href="#Introduction">Introduction</a>
-        <ul>
-            <li><a href="#Team-Members">Team Members</a></li>
-            <li><a href="#How-to-Run">How to Run</a></li>
-        </ul>
-    </li>
-    <li><a href="#Features">Features</a></li>
-    <li><a href="#Challenges">Challenges</a></li>
-</ol>
-</details> -->
+## 📚 Table of Contents
+1. [Introduction](#introduction)
+2. [Team Members](#team-members)
+3. [How to Run](#how-to-run)
+4. [Features](#features)
+5. [Challenges](#challenges)
 
-<!-- ABOUT THE PROJECT -->
-## Introduction <a name="Introduction"></a>
-<div style = "text-align: justify">
-LibMan is a library management system that helps librarians manage books, members, and borrowing/returning books. 
-The system is built using Java SpringBoot for the backend and React for frontend.
-</div>
+## 📖 Introduction <a name="introduction"></a>
+LibMan is a full-stack library management system that helps librarians manage books, members, and loan transactions efficiently.
+The system is built using Java Spring Boot for the backend and React for the frontend. It supports CRUD operations, structured DTO-based APIs, and a responsive user interface for intuitive navigation.
 
-### Team Members
-| Order |          Name           | Student ID  |
-|:-----:|:-----------------------:|:-----------:|
-|   1   |    Tran Nguyen Phuc     | ITCSIU21097 |
-|   2   |  Nguyen Mach Khang Huy  | ITCSIU21072 |
-|   3   |      Bui Cong Vinh      | ITCSIU22165 |
-|   4   | Nguyen Bach Dong Phuong | ITCSIU22118 |
-|   5   |  Nguyen Thi Quynh Nga   | ITCSIU22094 |
-|   6   |       Le Minh Duy       | ITCSIU22037 |
-|   7   |    Nguyen Minh Viet     | ITDSIU21130 |
-|   8   |      Tran Quoc Bao      | ITITWE20033 |
+## 👥 Team Members <a name="team-members"></a>
 
-### How to Run
+| Order | Name                       | Student ID   |
+|:-----:|----------------------------|:------------:|
+| 1     | Tran Nguyen Phuc           | ITCSIU21097  |
+| 2     | Nguyen Mach Khang Huy      | ITCSIU21072  |
+| 3     | Bui Cong Vinh              | ITCSIU22165  |
+| 4     | Nguyen Bach Dong Phuong    | ITCSIU22118  |
+| 5     | Nguyen Thi Quynh Nga       | ITCSIU22094  |
+| 6     | Le Minh Duy                | ITCSIU22037  |
+| 7     | **Nguyen Minh Viet**       | ITDSIU21130  |
+| 8     | Tran Quoc Bao              | ITITWE20033  |
+
+## 🚀 How to Run <a name="how-to-run"></a>
+
 1. Clone the repo
    ```sh
    git clone https://github.com/tnphucccc/LibMan.git
    ```
-2. Run the backend
+2. Start the backend
    ```sh
     cd backend
     mvn spring-boot:run
     ```
-3. Run the frontend
+3. Start the frontend
     ```sh
      cd frontend
      npm install
      npm run start
      ```
-4. Open your browser and go to `http://localhost:5173/`
+4. Open your browser and navigate to `http://localhost:5173/`
 
-## Features <a name="Features"></a>
-- ✅ Add, update, delete books
-- ✅ Add, update, delete authors
-- ✅ Add, update, delete members
-- ✅ Borrow, return books
-- ✅ View borrowing history
-- ✅ Search books
+## ✅ Features <a name="features"></a>
+- 📚 Add, update, and delete books
+- ✍️ Add, update, and delete authors
+- 🧑 Add, update, and delete members
+- 🔄 Borrow and return books
+- 📜 View borrowing history
+- 🔍 Search books
 
-## Challenges <a name="Challenges"></a>
+## ⚠️ Challenges <a name="challenges"></a>
+- Managing relational data between books, members, and authors while preserving referential integrity
+- Implementing structured DTOs for cleaner API design and validation
+- Setting up seamless communication between React and Spring Boot APIs
+- Ensuring smooth UX across data retrieval and modification processes
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
